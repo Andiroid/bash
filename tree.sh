@@ -10,8 +10,6 @@ fi
 
 # ∞ equals max int64 9223372036854775807
 
-# double blanks after l
-
 #init tree
 l="\e[48;5;82m\e[38;5;82m#\e[0m"
 printf "%*.0i$l\n" $(($1+1))
